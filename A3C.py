@@ -8,10 +8,10 @@ from optimizer import Optimizer
 # Global variables
 ENV = 'CartPole-v0'
 OUTPUT_NAME = 'models/A3C_'+ENV 
-MAX_EPISODE_STEPS = 10000                 # Number of steps to consider the game is won (default = 200)
+MAX_EPISODE_STEPS = 1000                 # Number of steps to consider the game is won (default = 200)
 gym.envs.registry.env_specs['CartPole-v0'].max_episode_steps = MAX_EPISODE_STEPS
 
-TRAINING_TIME = 10
+TRAINING_TIME = 60
 N_THREADS = 8
 N_OPTIMIZERS = 4
 
