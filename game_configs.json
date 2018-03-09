@@ -1,0 +1,46 @@
+{
+   "Acrobot-v1": {
+        "process_frame": 0,
+        "crop_x_min"   : 0,
+        "crop_x_max"   : 0,
+        "crop_y_min"   : 0,
+        "crop_y_max"   : 0,
+        "rgb2gray"     : 0,
+        "resize_x"     : 0,
+        "resize_y"     : 0,
+        "expand_dims"  : 0
+    },
+    "Breakout-v0": {
+        "process_frame": 1,
+        "crop_x_min"   : 32,
+        "crop_x_max"   : 194,
+        "crop_y_min"   : 8,
+        "crop_y_max"   : 152,
+        "rgb2gray"     : 1,
+        "resize_x"     : 60,
+        "resize_y"     : 60,
+        "expand_dims"  : 0
+    },
+    "CartPole-v0": {
+        "process_frame": 0,
+        "crop_x_min"   : 0,
+        "crop_x_max"   : 0,
+        "crop_y_min"   : 0,
+        "crop_y_max"   : 0,
+        "rgb2gray"     : 0,
+        "resize_x"     : 0,
+        "resize_y"     : 0,
+        "expand_dims"  : 0
+    },
+    "MountainCar-v0": {
+        "process_frame": 0,
+        "crop_x_min"   : 0,
+        "crop_x_max"   : 0,
+        "crop_y_min"   : 0,
+        "crop_y_max"   : 0,
+        "rgb2gray"     : 0,
+        "resize_x"     : 0,
+        "resize_y"     : 0,
+        "expand_dims"  : 0
+    }
+}
